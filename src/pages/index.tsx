@@ -1,9 +1,11 @@
+// 填充数据
 import styles from './index.less';
+import CodePreview from '@/components/CodePreview';
 
 export default function IndexPage() {
   return (
-    <div>
-      <h1 className={styles.title}>CLI</h1>
-    </div>
+    <section>
+      <CodePreview />
+    </section>
   );
 }
